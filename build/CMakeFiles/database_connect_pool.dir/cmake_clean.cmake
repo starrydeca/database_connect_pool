@@ -1,0 +1,11 @@
+file(REMOVE_RECURSE
+  "/home/starsdecade/文档/database_connect_pool/database_connect_pool"
+  "/home/starsdecade/文档/database_connect_pool/database_connect_pool.pdb"
+  "CMakeFiles/database_connect_pool.dir/src/connectPool.cpp.o"
+  "CMakeFiles/database_connect_pool.dir/src/connectPool.cpp.o.d"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/database_connect_pool.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

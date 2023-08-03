@@ -1,0 +1,3 @@
+/home/starsdecade/文档/database_connect_pool/build/CMakeFiles/database_connect_pool.dir
+/home/starsdecade/文档/database_connect_pool/build/CMakeFiles/edit_cache.dir
+/home/starsdecade/文档/database_connect_pool/build/CMakeFiles/rebuild_cache.dir
