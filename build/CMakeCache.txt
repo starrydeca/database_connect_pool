@@ -221,6 +221,9 @@ database_connect_pool_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 database_connect_pool_SOURCE_DIR:STATIC=/home/starsdecade/文档/database_connect_pool
 
+//The directory containing a CMake configuration file for jsoncpp.
+jsoncpp_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/jsoncpp
+
 
 ########################
 # INTERNAL cache entries

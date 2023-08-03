@@ -4,5 +4,11 @@
   "command": "/usr/bin/c++  -I/home/starsdecade/文档/database_connect_pool/include  -O0 -Wall -g2 -ggdb -o CMakeFiles/database_connect_pool.dir/src/connectPool.cpp.o -c /home/starsdecade/文档/database_connect_pool/src/connectPool.cpp",
   "file": "/home/starsdecade/文档/database_connect_pool/src/connectPool.cpp",
   "output": "CMakeFiles/database_connect_pool.dir/src/connectPool.cpp.o"
+},
+{
+  "directory": "/home/starsdecade/文档/database_connect_pool/build",
+  "command": "/usr/bin/c++  -I/home/starsdecade/文档/database_connect_pool/include  -O0 -Wall -g2 -ggdb -o CMakeFiles/database_connect_pool.dir/src/databaseConnect.cpp.o -c /home/starsdecade/文档/database_connect_pool/src/databaseConnect.cpp",
+  "file": "/home/starsdecade/文档/database_connect_pool/src/databaseConnect.cpp",
+  "output": "CMakeFiles/database_connect_pool.dir/src/databaseConnect.cpp.o"
 }
 ]

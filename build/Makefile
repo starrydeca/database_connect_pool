@@ -153,6 +153,30 @@ src/connectPool.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/database_connect_pool.dir/build.make CMakeFiles/database_connect_pool.dir/src/connectPool.cpp.s
 .PHONY : src/connectPool.cpp.s
 
+src/databaseConnect.o: src/databaseConnect.cpp.o
+.PHONY : src/databaseConnect.o
+
+# target to build an object file
+src/databaseConnect.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/database_connect_pool.dir/build.make CMakeFiles/database_connect_pool.dir/src/databaseConnect.cpp.o
+.PHONY : src/databaseConnect.cpp.o
+
+src/databaseConnect.i: src/databaseConnect.cpp.i
+.PHONY : src/databaseConnect.i
+
+# target to preprocess a source file
+src/databaseConnect.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/database_connect_pool.dir/build.make CMakeFiles/database_connect_pool.dir/src/databaseConnect.cpp.i
+.PHONY : src/databaseConnect.cpp.i
+
+src/databaseConnect.s: src/databaseConnect.cpp.s
+.PHONY : src/databaseConnect.s
+
+# target to generate assembly for a file
+src/databaseConnect.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/database_connect_pool.dir/build.make CMakeFiles/database_connect_pool.dir/src/databaseConnect.cpp.s
+.PHONY : src/databaseConnect.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -165,6 +189,9 @@ help:
 	@echo "... src/connectPool.o"
 	@echo "... src/connectPool.i"
 	@echo "... src/connectPool.s"
+	@echo "... src/databaseConnect.o"
+	@echo "... src/databaseConnect.i"
+	@echo "... src/databaseConnect.s"
 .PHONY : help
 
 

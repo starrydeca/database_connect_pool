@@ -2,7 +2,7 @@
 cmake_minimum_required(VERSION 3.0)
 project(database_connect_pool)
 
-#生成json文件，让源文件找到头文件
+#生成ycm可识别的json文件，让源文件找到头文件
 SET(CMAKE_EXPORT_COMPILE_COMMANDS ON )
 
 #源文件、头文件、输出路径
@@ -17,3 +17,8 @@ SET(CMAKE_CXX_FLAGS_RELEASE "$ENV{CXXFLAGS} -O3 -Wall")
 
 #输出可执行文件
 add_executable(database_connect_pool ${SRC})
+
+#将可执行文件链接动态库，使用jsoncpp
+find_package(jsoncpp REQUIRED)
+include_directories(${JSONCPP_INCLUDE_DIRS})
+target_link_libraries(database_connect_pool PRIVATE ${JSONCPP_LIBRARIES})
