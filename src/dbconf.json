@@ -1,0 +1,11 @@
+{
+    "ip":"192.168.80.128",
+    "port":3306,
+    "userName":"starry",
+    "password":"root",
+    "dbName":"dbConnectPool",
+    "minSize":100,
+    "maxSize":1024,
+    "maxIdTime":5000,
+    "timeout":1000
+}
