@@ -1,6 +1,8 @@
 #pragma once
 #include <iostream>
 using namespace std;
+#include <chrono>
+using namespace chrono;
 #include <string>
 #include <mysql/mysql.h>
 
@@ -26,10 +28,15 @@ class databaseConnect {
     bool commit();
     //事物回滚
     bool rollback();
+    //刷新起始的空闲时间点
+    void refreshAliveTime();
+    //计算连接存活的总时长
+    long long getAliveTime();
   private:
     void freeResult();//释放结果集
   private:
     MYSQL* m_conn = nullptr;//数据库对象
     MYSQL_RES* m_result = nullptr;//数据库结果集
     MYSQL_ROW m_row = nullptr;//结构为MYSQL_ROW的下一行结果
+    steady_clock::time_point m_alivetime;    
 };
