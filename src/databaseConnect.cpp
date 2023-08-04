@@ -35,6 +35,7 @@ bool databaseConnect::query(string sql) {
 bool databaseConnect::next() {
     if (m_result != nullptr) {
         m_row = mysql_fetch_row(m_result);
+        if (m_row != nullptr)   return true;
     } 
     return false;
 }
@@ -64,4 +65,14 @@ void databaseConnect::freeResult() {
         mysql_free_result(m_result);
         m_result = nullptr;
     }
+}
+
+void databaseConnect::refreshAliveTime() {
+    m_alivetime = steady_clock::now();
+}
+
+long long databaseConnect::getAliveTime() {
+    nanoseconds res = steady_clock::now() - m_alivetime;
+    milliseconds millisec = duration_cast<milliseconds>(res);
+    return millisec.count();
 }
