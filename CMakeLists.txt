@@ -22,5 +22,3 @@ add_executable(database_connect_pool ${SRC})
 target_link_libraries(database_connect_pool jsoncpp)
 #将可执行文件链接动态库，使用mysqlclient
 target_link_libraries(database_connect_pool libmysqlclient.so)
-#find_package(MYSQL REQUIRED)
-#target_link_libraries(database_connect_pool PRIVATE mysqlclient)
