@@ -19,6 +19,8 @@ SET(CMAKE_CXX_FLAGS_RELEASE "$ENV{CXXFLAGS} -O3 -Wall")
 add_executable(database_connect_pool ${SRC})
 
 #将可执行文件链接动态库，使用jsoncpp
-find_package(jsoncpp REQUIRED)
-include_directories(${JSONCPP_INCLUDE_DIRS})
-target_link_libraries(database_connect_pool PRIVATE ${JSONCPP_LIBRARIES})
+target_link_libraries(database_connect_pool jsoncpp)
+#将可执行文件链接动态库，使用mysqlclient
+target_link_libraries(database_connect_pool libmysqlclient.so)
+#find_package(MYSQL REQUIRED)
+#target_link_libraries(database_connect_pool PRIVATE mysqlclient)

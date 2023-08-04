@@ -212,6 +212,12 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
+//The directory containing a CMake configuration file for MYSQL.
+MYSQL_DIR:PATH=MYSQL_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for MYSQl.
+MYSQl_DIR:PATH=MYSQl_DIR-NOTFOUND
+
 //Value Computed by CMake
 database_connect_pool_BINARY_DIR:STATIC=/home/starsdecade/文档/database_connect_pool/build
 
@@ -223,6 +229,12 @@ database_connect_pool_SOURCE_DIR:STATIC=/home/starsdecade/文档/database_connec
 
 //The directory containing a CMake configuration file for jsoncpp.
 jsoncpp_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/jsoncpp
+
+//The directory containing a CMake configuration file for mysqlclient-dev.
+mysqlclient-dev_DIR:PATH=mysqlclient-dev_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for mysqlclient.
+mysqlclient_DIR:PATH=mysqlclient_DIR-NOTFOUND
 
 
 ########################

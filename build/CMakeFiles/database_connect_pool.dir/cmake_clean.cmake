@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/database_connect_pool.dir/src/connectPool.cpp.o.d"
   "CMakeFiles/database_connect_pool.dir/src/databaseConnect.cpp.o"
   "CMakeFiles/database_connect_pool.dir/src/databaseConnect.cpp.o.d"
+  "CMakeFiles/database_connect_pool.dir/src/main.cpp.o"
+  "CMakeFiles/database_connect_pool.dir/src/main.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.
