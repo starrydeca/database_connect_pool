@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/starsdecade/文档/database_connect_pool/database_connect_pool"
-  "/home/starsdecade/文档/database_connect_pool/database_connect_pool.pdb"
+  "/home/starsdecade/文档/database_connect_pool/bin/database_connect_pool"
+  "/home/starsdecade/文档/database_connect_pool/bin/database_connect_pool.pdb"
   "CMakeFiles/database_connect_pool.dir/src/connectPool.cpp.o"
   "CMakeFiles/database_connect_pool.dir/src/connectPool.cpp.o.d"
   "CMakeFiles/database_connect_pool.dir/src/databaseConnect.cpp.o"

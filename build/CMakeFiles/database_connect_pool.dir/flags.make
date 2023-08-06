@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/starsdecade/文档/database_connect_pool/include
 
-CXX_FLAGS =  -O0 -Wall -g2 -ggdb
+CXX_FLAGS =  -O0 -Wall -g2 -ggdb -std=gnu++20
 
