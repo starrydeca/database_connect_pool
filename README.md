@@ -4,6 +4,10 @@
 <a herf="https://www.bilibili.com/video/BV1Fr4y1s7w4?p=16&vd_source=9d3fcd844b0ad55a330b3afec653d682" title="基于C++11的数据库连接池【C++/数据库/多线程/MySQL】">基于C++11的数据库连接池【C++/数据库/多线程/MySQL】</a>
 
 ## 环境配置
+
+### Linux版本
+    Ubuntu
+
 ### Mysql
 
     # 安装mysql
