@@ -36,7 +36,7 @@ bool databaseConnect::next() {
     if (m_result != nullptr) {
         m_row = mysql_fetch_row(m_result);
         if (m_row != nullptr)   return true;
-    } 
+    }
     return false;
 }
 
@@ -46,7 +46,7 @@ string databaseConnect::value(int index) {
     char* val = m_row[index];//返回值为char* 有'\0'
     unsigned long length = mysql_fetch_lengths(m_result)[index];//取出第index列的属性长度
     return string(val, length);//去除'\0'
-}   
+}
 
 bool databaseConnect::transaction() {
     return mysql_autocommit(m_conn, false);
